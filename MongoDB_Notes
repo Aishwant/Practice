@@ -1,0 +1,23 @@
+All Practice Notes
+
+Mongo Commands
+
+db - shows database being used
+use nameOfDatabase - uses the database and creates a new one if its not there
+db.players.insert([{												#### players here is collection
+	"isActive" : false,
+	"balance" : "$3,960.64",
+	"age" : 30,
+	"name" : "Dawn Keith",
+	"gender" : "female",
+	"company" : "COSMOSIS",
+	"email" : "dawnkeith@cosmosis.com",
+	"phone" : "+1 (839) 437-3421",
+	"address" : "392 Clifford Place, Fontanelle, Arizona, 2687"
+}])                                     ------------------------------------     Add or inserts item to the collection of list
+																				 [] - square brackets for inserting as an array
+
+db.players.insert([{}])
+show collections - displays name of collections
+db.collection.find() - displays the list items in the database
+db.collection.find().pretty() - displays the list items in a presentable format
