@@ -13,7 +13,7 @@ db.players.insert([{												#### players here is collection
 	"phone" : "+1 (839) 437-3421",
 	"address" : "392 Clifford Place, Fontanelle, Arizona, 2687"
 }])                                     ------------------------------------     Add or inserts item to the collection of list
-																				 [] - square brackets for inserting as an array
+										[] - square brackets for inserting as an array
 
 db.players.insert([{}])
 show collections - displays name of collections
