@@ -1,8 +1,12 @@
+MONGO DB
+
+A database is made up of collections - (group of similar datas)
+
 Mongo Commands
 
 db - shows database being used
 use nameOfDatabase - uses the database and creates a new one if its not there
-db.players.insert([{												#### players here is collection
+db.players.insert([{						#### players here is collection
 	"isActive" : false,
 	"balance" : "$3,960.64",
 	"age" : 30,
